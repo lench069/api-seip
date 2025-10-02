@@ -3,11 +3,11 @@
   "description": "Microservice to interact with the SSN API using Fastify",
   "version": "1.0.0",
   "private": true,
-  "main": "dist/index.js",
+  "main": "dist/server/index.js",
   "scripts": {
-    "dev": "nodemon --watch 'src/**' --ext 'ts,json' --exec 'npm run build && npm run start'",
+    "dev": "nodemon --watch 'src/**' --ext 'ts,json' --exec 'npm run build && npm start'",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/server/index.js"
   },
   "author": "Gemini",
   "license": "Apache-2.0",
